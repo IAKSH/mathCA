@@ -3,7 +3,7 @@
 #include <stdexcept>
 using std::out_of_range;
 
-double arra(int m, int n) noexcept(false)
+long long arra(int m, int n) noexcept(false)
 {
 	if (m <= 0 || n <= 0)
 	{

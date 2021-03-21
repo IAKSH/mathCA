@@ -6,9 +6,10 @@ long long fact(long long num)
         return 1;
 
     long long res{ 1 };
-	while (num --> 0)
+	while (num > 0)
 	{
 		res *= num;
+		--num;
 	}
 	return res;
 }

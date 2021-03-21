@@ -14,5 +14,5 @@ add_executable(
     source/mathext.cpp
     source/comb.cpp
     source/arra.cpp
-    source/ui.cpp
+    #source/ui.cpp
 )
