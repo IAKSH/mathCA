@@ -1,73 +1,111 @@
 #include <iostream>
-#include "comb.h"
-#include "arra.h"
+#include <cstring>
+#include "ca_math.hpp"
+#include "ca_datatype.hpp"
 
-long long setComb()
+void showHelp()
 {
-    int m, n;
+    static const char *HELP_INFO
+    {
+        "\t-comp\t设置为组合\n"\
+        "\t-arra\t设置为排列\n"\
+        "\t-n\t设置n值\n"\
+        "\t-m\t设置m值\n"
+    };
 
-    std::cout << "set n = ";
-    std::cin >> n;
-
-    std::cout << "set m = ";
-    std::cin >> m;
-
-    return comb(m, n);
+    std::cout << HELP_INFO << std::endl;
 }
 
-long long setArra()
+int main(int argn, char *args[])
 {
-    int m, n;
-
-    std::cout << "set n = ";
-    std::cin >> n;
-
-    std::cout << "set m = ";
-    std::cin >> m;
-
-    return arra(m, n);
-}
-
-void setValueToResult(long long &save, long long &value)
-{
-    int roadCode;
-    std::cout << "+ or * ? (0,1)";
-    std::cin >> roadCode;
-
-    if(roadCode == 0)
+    static const char *const INFO
     {
-        save += value;
-    }
+        "+----------------------------+\n"\
+        "|        Comp & Arra         |\n"\
+        "| ========================== |\n"\
+        "| version: 0.0.2             |\n"\
+        "| source opened on GPL v3.   |\n"\
+        "+----------------------------+\n"
+    };
 
-    else
+
+    static const char *const ARGS[][2]
     {
-        if(save == 0)
-            save = 1;
-        save *= value;
-    }
-}
-
-int main()
-{
-    long long result{0};
-    int m, n, roadCode;
-
-    while(true)
-    {
-        std::cout << "A or C (0,1)";
-        std::cin >> roadCode;
-        switch (roadCode)
+        // comp or arra
         {
-        case 0: // A
-            
-            break;
-        
-        case 1: // C
-            break;
-        default:
-            break;
+            "-comp",
+            "-arra"
+        },
+
+        // set numbers
+        {
+            "-n",
+            "-m",
+        },
+
+        {
+            "-help"
+        }
+    };
+
+    bool roadSignal_comp {false};
+    int n {1};
+    int m {1};
+    long long result {0};
+
+    while(argn --> 0)
+    {
+        if(std::strcmp(args[argn],ARGS[0][0]) == 0)
+        {
+            roadSignal_comp = true;
+        }
+
+        else if(std::strcmp(args[argn],ARGS[0][1]) == 0)
+        {
+            roadSignal_comp = false;
+        }
+
+        else if(std::strcmp(args[argn],ARGS[1][0]) == 0)
+        {
+            n = std::atoi(args[argn + 1]);
+        }
+
+        else if(std::strcmp(args[argn],ARGS[1][1]) == 0)
+        {
+            m = std::atoi(args[argn + 1]);
+        }
+
+        else if(std::strcmp(args[argn],ARGS[2][0]) == 0)
+        {
+            showHelp();
+            return 1;
+        }
+
+        else
+        {
+            showHelp();
+            return 1;
         }
     }
 
-    
+    try
+    {
+        if(roadSignal_comp)
+        {
+            result = ca::math::comb(m, n);
+        }
+        else
+        {
+            result = ca::math::arra(m, n);
+        }
+    }
+    catch(const std::exception& e)
+    {
+        std::cerr << "exception occured: " << e.what() << '\n';
+        return -1;
+    }
+
+    std::cout << INFO << "result = " << result << std::endl;
+
+    return 0;
 }
