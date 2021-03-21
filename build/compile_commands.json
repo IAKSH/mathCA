@@ -1,0 +1,7 @@
+[
+{
+  "directory": "C:/Users/ask/Desktop/autoCA/build",
+  "command": "E:\\Language_Comp\\C-Cpp\\mingw64-seh\\bin\\g++.exe   -g -std=c++17 -fexec-charset=GBK -finput-charset=UTF-8 -o CMakeFiles\\autoCA.dir\\m.cpp.obj -c C:\\Users\\ask\\Desktop\\autoCA\\m.cpp",
+  "file": "C:/Users/ask/Desktop/autoCA/m.cpp"
+}
+]
