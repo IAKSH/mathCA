@@ -75,32 +75,92 @@ include CMakeFiles/autoCA.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/autoCA.dir/flags.make
 
-CMakeFiles/autoCA.dir/m.cpp.obj: CMakeFiles/autoCA.dir/flags.make
-CMakeFiles/autoCA.dir/m.cpp.obj: ../m.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ask\Desktop\autoCA\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/autoCA.dir/m.cpp.obj"
-	E:\Language_Comp\C-Cpp\mingw64-seh\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\autoCA.dir\m.cpp.obj -c C:\Users\ask\Desktop\autoCA\m.cpp
+CMakeFiles/autoCA.dir/source/main.cpp.obj: CMakeFiles/autoCA.dir/flags.make
+CMakeFiles/autoCA.dir/source/main.cpp.obj: ../source/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ask\Desktop\autoCA\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/autoCA.dir/source/main.cpp.obj"
+	E:\Language_Comp\C-Cpp\mingw64-seh\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\autoCA.dir\source\main.cpp.obj -c C:\Users\ask\Desktop\autoCA\source\main.cpp
 
-CMakeFiles/autoCA.dir/m.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/autoCA.dir/m.cpp.i"
-	E:\Language_Comp\C-Cpp\mingw64-seh\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ask\Desktop\autoCA\m.cpp > CMakeFiles\autoCA.dir\m.cpp.i
+CMakeFiles/autoCA.dir/source/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/autoCA.dir/source/main.cpp.i"
+	E:\Language_Comp\C-Cpp\mingw64-seh\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ask\Desktop\autoCA\source\main.cpp > CMakeFiles\autoCA.dir\source\main.cpp.i
 
-CMakeFiles/autoCA.dir/m.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/autoCA.dir/m.cpp.s"
-	E:\Language_Comp\C-Cpp\mingw64-seh\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ask\Desktop\autoCA\m.cpp -o CMakeFiles\autoCA.dir\m.cpp.s
+CMakeFiles/autoCA.dir/source/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/autoCA.dir/source/main.cpp.s"
+	E:\Language_Comp\C-Cpp\mingw64-seh\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ask\Desktop\autoCA\source\main.cpp -o CMakeFiles\autoCA.dir\source\main.cpp.s
+
+CMakeFiles/autoCA.dir/source/mathext.cpp.obj: CMakeFiles/autoCA.dir/flags.make
+CMakeFiles/autoCA.dir/source/mathext.cpp.obj: ../source/mathext.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ask\Desktop\autoCA\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/autoCA.dir/source/mathext.cpp.obj"
+	E:\Language_Comp\C-Cpp\mingw64-seh\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\autoCA.dir\source\mathext.cpp.obj -c C:\Users\ask\Desktop\autoCA\source\mathext.cpp
+
+CMakeFiles/autoCA.dir/source/mathext.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/autoCA.dir/source/mathext.cpp.i"
+	E:\Language_Comp\C-Cpp\mingw64-seh\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ask\Desktop\autoCA\source\mathext.cpp > CMakeFiles\autoCA.dir\source\mathext.cpp.i
+
+CMakeFiles/autoCA.dir/source/mathext.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/autoCA.dir/source/mathext.cpp.s"
+	E:\Language_Comp\C-Cpp\mingw64-seh\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ask\Desktop\autoCA\source\mathext.cpp -o CMakeFiles\autoCA.dir\source\mathext.cpp.s
+
+CMakeFiles/autoCA.dir/source/comb.cpp.obj: CMakeFiles/autoCA.dir/flags.make
+CMakeFiles/autoCA.dir/source/comb.cpp.obj: ../source/comb.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ask\Desktop\autoCA\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/autoCA.dir/source/comb.cpp.obj"
+	E:\Language_Comp\C-Cpp\mingw64-seh\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\autoCA.dir\source\comb.cpp.obj -c C:\Users\ask\Desktop\autoCA\source\comb.cpp
+
+CMakeFiles/autoCA.dir/source/comb.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/autoCA.dir/source/comb.cpp.i"
+	E:\Language_Comp\C-Cpp\mingw64-seh\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ask\Desktop\autoCA\source\comb.cpp > CMakeFiles\autoCA.dir\source\comb.cpp.i
+
+CMakeFiles/autoCA.dir/source/comb.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/autoCA.dir/source/comb.cpp.s"
+	E:\Language_Comp\C-Cpp\mingw64-seh\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ask\Desktop\autoCA\source\comb.cpp -o CMakeFiles\autoCA.dir\source\comb.cpp.s
+
+CMakeFiles/autoCA.dir/source/arra.cpp.obj: CMakeFiles/autoCA.dir/flags.make
+CMakeFiles/autoCA.dir/source/arra.cpp.obj: ../source/arra.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ask\Desktop\autoCA\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/autoCA.dir/source/arra.cpp.obj"
+	E:\Language_Comp\C-Cpp\mingw64-seh\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\autoCA.dir\source\arra.cpp.obj -c C:\Users\ask\Desktop\autoCA\source\arra.cpp
+
+CMakeFiles/autoCA.dir/source/arra.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/autoCA.dir/source/arra.cpp.i"
+	E:\Language_Comp\C-Cpp\mingw64-seh\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ask\Desktop\autoCA\source\arra.cpp > CMakeFiles\autoCA.dir\source\arra.cpp.i
+
+CMakeFiles/autoCA.dir/source/arra.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/autoCA.dir/source/arra.cpp.s"
+	E:\Language_Comp\C-Cpp\mingw64-seh\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ask\Desktop\autoCA\source\arra.cpp -o CMakeFiles\autoCA.dir\source\arra.cpp.s
+
+CMakeFiles/autoCA.dir/source/ui.cpp.obj: CMakeFiles/autoCA.dir/flags.make
+CMakeFiles/autoCA.dir/source/ui.cpp.obj: ../source/ui.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ask\Desktop\autoCA\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/autoCA.dir/source/ui.cpp.obj"
+	E:\Language_Comp\C-Cpp\mingw64-seh\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\autoCA.dir\source\ui.cpp.obj -c C:\Users\ask\Desktop\autoCA\source\ui.cpp
+
+CMakeFiles/autoCA.dir/source/ui.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/autoCA.dir/source/ui.cpp.i"
+	E:\Language_Comp\C-Cpp\mingw64-seh\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ask\Desktop\autoCA\source\ui.cpp > CMakeFiles\autoCA.dir\source\ui.cpp.i
+
+CMakeFiles/autoCA.dir/source/ui.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/autoCA.dir/source/ui.cpp.s"
+	E:\Language_Comp\C-Cpp\mingw64-seh\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ask\Desktop\autoCA\source\ui.cpp -o CMakeFiles\autoCA.dir\source\ui.cpp.s
 
 # Object files for target autoCA
 autoCA_OBJECTS = \
-"CMakeFiles/autoCA.dir/m.cpp.obj"
+"CMakeFiles/autoCA.dir/source/main.cpp.obj" \
+"CMakeFiles/autoCA.dir/source/mathext.cpp.obj" \
+"CMakeFiles/autoCA.dir/source/comb.cpp.obj" \
+"CMakeFiles/autoCA.dir/source/arra.cpp.obj" \
+"CMakeFiles/autoCA.dir/source/ui.cpp.obj"
 
 # External object files for target autoCA
 autoCA_EXTERNAL_OBJECTS =
 
-autoCA.exe: CMakeFiles/autoCA.dir/m.cpp.obj
+autoCA.exe: CMakeFiles/autoCA.dir/source/main.cpp.obj
+autoCA.exe: CMakeFiles/autoCA.dir/source/mathext.cpp.obj
+autoCA.exe: CMakeFiles/autoCA.dir/source/comb.cpp.obj
+autoCA.exe: CMakeFiles/autoCA.dir/source/arra.cpp.obj
+autoCA.exe: CMakeFiles/autoCA.dir/source/ui.cpp.obj
 autoCA.exe: CMakeFiles/autoCA.dir/build.make
 autoCA.exe: CMakeFiles/autoCA.dir/linklibs.rsp
 autoCA.exe: CMakeFiles/autoCA.dir/objects1.rsp
 autoCA.exe: CMakeFiles/autoCA.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\ask\Desktop\autoCA\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable autoCA.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\ask\Desktop\autoCA\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable autoCA.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\autoCA.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

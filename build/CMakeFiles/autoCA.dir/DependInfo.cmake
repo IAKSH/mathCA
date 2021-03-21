@@ -4,7 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/ask/Desktop/autoCA/m.cpp" "C:/Users/ask/Desktop/autoCA/build/CMakeFiles/autoCA.dir/m.cpp.obj"
+  "C:/Users/ask/Desktop/autoCA/source/arra.cpp" "C:/Users/ask/Desktop/autoCA/build/CMakeFiles/autoCA.dir/source/arra.cpp.obj"
+  "C:/Users/ask/Desktop/autoCA/source/comb.cpp" "C:/Users/ask/Desktop/autoCA/build/CMakeFiles/autoCA.dir/source/comb.cpp.obj"
+  "C:/Users/ask/Desktop/autoCA/source/main.cpp" "C:/Users/ask/Desktop/autoCA/build/CMakeFiles/autoCA.dir/source/main.cpp.obj"
+  "C:/Users/ask/Desktop/autoCA/source/mathext.cpp" "C:/Users/ask/Desktop/autoCA/build/CMakeFiles/autoCA.dir/source/mathext.cpp.obj"
+  "C:/Users/ask/Desktop/autoCA/source/ui.cpp" "C:/Users/ask/Desktop/autoCA/build/CMakeFiles/autoCA.dir/source/ui.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

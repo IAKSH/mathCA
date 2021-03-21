@@ -141,32 +141,140 @@ autoCA/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\autoCA.dir\build.make CMakeFiles/autoCA.dir/build
 .PHONY : autoCA/fast
 
-m.obj: m.cpp.obj
+source/arra.obj: source/arra.cpp.obj
 
-.PHONY : m.obj
+.PHONY : source/arra.obj
 
 # target to build an object file
-m.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\autoCA.dir\build.make CMakeFiles/autoCA.dir/m.cpp.obj
-.PHONY : m.cpp.obj
+source/arra.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\autoCA.dir\build.make CMakeFiles/autoCA.dir/source/arra.cpp.obj
+.PHONY : source/arra.cpp.obj
 
-m.i: m.cpp.i
+source/arra.i: source/arra.cpp.i
 
-.PHONY : m.i
+.PHONY : source/arra.i
 
 # target to preprocess a source file
-m.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\autoCA.dir\build.make CMakeFiles/autoCA.dir/m.cpp.i
-.PHONY : m.cpp.i
+source/arra.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\autoCA.dir\build.make CMakeFiles/autoCA.dir/source/arra.cpp.i
+.PHONY : source/arra.cpp.i
 
-m.s: m.cpp.s
+source/arra.s: source/arra.cpp.s
 
-.PHONY : m.s
+.PHONY : source/arra.s
 
 # target to generate assembly for a file
-m.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\autoCA.dir\build.make CMakeFiles/autoCA.dir/m.cpp.s
-.PHONY : m.cpp.s
+source/arra.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\autoCA.dir\build.make CMakeFiles/autoCA.dir/source/arra.cpp.s
+.PHONY : source/arra.cpp.s
+
+source/comb.obj: source/comb.cpp.obj
+
+.PHONY : source/comb.obj
+
+# target to build an object file
+source/comb.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\autoCA.dir\build.make CMakeFiles/autoCA.dir/source/comb.cpp.obj
+.PHONY : source/comb.cpp.obj
+
+source/comb.i: source/comb.cpp.i
+
+.PHONY : source/comb.i
+
+# target to preprocess a source file
+source/comb.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\autoCA.dir\build.make CMakeFiles/autoCA.dir/source/comb.cpp.i
+.PHONY : source/comb.cpp.i
+
+source/comb.s: source/comb.cpp.s
+
+.PHONY : source/comb.s
+
+# target to generate assembly for a file
+source/comb.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\autoCA.dir\build.make CMakeFiles/autoCA.dir/source/comb.cpp.s
+.PHONY : source/comb.cpp.s
+
+source/main.obj: source/main.cpp.obj
+
+.PHONY : source/main.obj
+
+# target to build an object file
+source/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\autoCA.dir\build.make CMakeFiles/autoCA.dir/source/main.cpp.obj
+.PHONY : source/main.cpp.obj
+
+source/main.i: source/main.cpp.i
+
+.PHONY : source/main.i
+
+# target to preprocess a source file
+source/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\autoCA.dir\build.make CMakeFiles/autoCA.dir/source/main.cpp.i
+.PHONY : source/main.cpp.i
+
+source/main.s: source/main.cpp.s
+
+.PHONY : source/main.s
+
+# target to generate assembly for a file
+source/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\autoCA.dir\build.make CMakeFiles/autoCA.dir/source/main.cpp.s
+.PHONY : source/main.cpp.s
+
+source/mathext.obj: source/mathext.cpp.obj
+
+.PHONY : source/mathext.obj
+
+# target to build an object file
+source/mathext.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\autoCA.dir\build.make CMakeFiles/autoCA.dir/source/mathext.cpp.obj
+.PHONY : source/mathext.cpp.obj
+
+source/mathext.i: source/mathext.cpp.i
+
+.PHONY : source/mathext.i
+
+# target to preprocess a source file
+source/mathext.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\autoCA.dir\build.make CMakeFiles/autoCA.dir/source/mathext.cpp.i
+.PHONY : source/mathext.cpp.i
+
+source/mathext.s: source/mathext.cpp.s
+
+.PHONY : source/mathext.s
+
+# target to generate assembly for a file
+source/mathext.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\autoCA.dir\build.make CMakeFiles/autoCA.dir/source/mathext.cpp.s
+.PHONY : source/mathext.cpp.s
+
+source/ui.obj: source/ui.cpp.obj
+
+.PHONY : source/ui.obj
+
+# target to build an object file
+source/ui.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\autoCA.dir\build.make CMakeFiles/autoCA.dir/source/ui.cpp.obj
+.PHONY : source/ui.cpp.obj
+
+source/ui.i: source/ui.cpp.i
+
+.PHONY : source/ui.i
+
+# target to preprocess a source file
+source/ui.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\autoCA.dir\build.make CMakeFiles/autoCA.dir/source/ui.cpp.i
+.PHONY : source/ui.cpp.i
+
+source/ui.s: source/ui.cpp.s
+
+.PHONY : source/ui.s
+
+# target to generate assembly for a file
+source/ui.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\autoCA.dir\build.make CMakeFiles/autoCA.dir/source/ui.cpp.s
+.PHONY : source/ui.cpp.s
 
 # Help Target
 help:
@@ -177,9 +285,21 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... autoCA
-	@echo ... m.obj
-	@echo ... m.i
-	@echo ... m.s
+	@echo ... source/arra.obj
+	@echo ... source/arra.i
+	@echo ... source/arra.s
+	@echo ... source/comb.obj
+	@echo ... source/comb.i
+	@echo ... source/comb.s
+	@echo ... source/main.obj
+	@echo ... source/main.i
+	@echo ... source/main.s
+	@echo ... source/mathext.obj
+	@echo ... source/mathext.i
+	@echo ... source/mathext.s
+	@echo ... source/ui.obj
+	@echo ... source/ui.i
+	@echo ... source/ui.s
 .PHONY : help
 
 

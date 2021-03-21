@@ -1,7 +1,27 @@
 [
 {
   "directory": "C:/Users/ask/Desktop/autoCA/build",
-  "command": "E:\\Language_Comp\\C-Cpp\\mingw64-seh\\bin\\g++.exe   -g -std=c++17 -fexec-charset=GBK -finput-charset=UTF-8 -o CMakeFiles\\autoCA.dir\\m.cpp.obj -c C:\\Users\\ask\\Desktop\\autoCA\\m.cpp",
-  "file": "C:/Users/ask/Desktop/autoCA/m.cpp"
+  "command": "E:\\Language_Comp\\C-Cpp\\mingw64-seh\\bin\\g++.exe   -g -std=c++17 -fexec-charset=GBK -finput-charset=UTF-8 -o CMakeFiles\\autoCA.dir\\source\\main.cpp.obj -c C:\\Users\\ask\\Desktop\\autoCA\\source\\main.cpp",
+  "file": "C:/Users/ask/Desktop/autoCA/source/main.cpp"
+},
+{
+  "directory": "C:/Users/ask/Desktop/autoCA/build",
+  "command": "E:\\Language_Comp\\C-Cpp\\mingw64-seh\\bin\\g++.exe   -g -std=c++17 -fexec-charset=GBK -finput-charset=UTF-8 -o CMakeFiles\\autoCA.dir\\source\\mathext.cpp.obj -c C:\\Users\\ask\\Desktop\\autoCA\\source\\mathext.cpp",
+  "file": "C:/Users/ask/Desktop/autoCA/source/mathext.cpp"
+},
+{
+  "directory": "C:/Users/ask/Desktop/autoCA/build",
+  "command": "E:\\Language_Comp\\C-Cpp\\mingw64-seh\\bin\\g++.exe   -g -std=c++17 -fexec-charset=GBK -finput-charset=UTF-8 -o CMakeFiles\\autoCA.dir\\source\\comb.cpp.obj -c C:\\Users\\ask\\Desktop\\autoCA\\source\\comb.cpp",
+  "file": "C:/Users/ask/Desktop/autoCA/source/comb.cpp"
+},
+{
+  "directory": "C:/Users/ask/Desktop/autoCA/build",
+  "command": "E:\\Language_Comp\\C-Cpp\\mingw64-seh\\bin\\g++.exe   -g -std=c++17 -fexec-charset=GBK -finput-charset=UTF-8 -o CMakeFiles\\autoCA.dir\\source\\arra.cpp.obj -c C:\\Users\\ask\\Desktop\\autoCA\\source\\arra.cpp",
+  "file": "C:/Users/ask/Desktop/autoCA/source/arra.cpp"
+},
+{
+  "directory": "C:/Users/ask/Desktop/autoCA/build",
+  "command": "E:\\Language_Comp\\C-Cpp\\mingw64-seh\\bin\\g++.exe   -g -std=c++17 -fexec-charset=GBK -finput-charset=UTF-8 -o CMakeFiles\\autoCA.dir\\source\\ui.cpp.obj -c C:\\Users\\ask\\Desktop\\autoCA\\source\\ui.cpp",
+  "file": "C:/Users/ask/Desktop/autoCA/source/ui.cpp"
 }
 ]

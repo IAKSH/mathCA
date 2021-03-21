@@ -10,9 +10,9 @@ add_compile_options(
 
 add_executable(
     autoCA
-    ./source/main.cpp
-    ./source/mathext.cpp
-    ./source/comb.cpp
-    ./source/arra.cpp
-    ./source/ui.cpp
+    source/main.cpp
+    source/mathext.cpp
+    source/comb.cpp
+    source/arra.cpp
+    source/ui.cpp
 )

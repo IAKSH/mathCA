@@ -1,5 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/autoCA.dir/m.cpp.obj"
+  "CMakeFiles/autoCA.dir/source/arra.cpp.obj"
+  "CMakeFiles/autoCA.dir/source/comb.cpp.obj"
+  "CMakeFiles/autoCA.dir/source/main.cpp.obj"
+  "CMakeFiles/autoCA.dir/source/mathext.cpp.obj"
+  "CMakeFiles/autoCA.dir/source/ui.cpp.obj"
   "autoCA.exe"
   "autoCA.exe.manifest"
   "autoCA.pdb"
