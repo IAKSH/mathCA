@@ -1,3 +1,0 @@
-C:/Users/ask/Desktop/autoCA/build/CMakeFiles/mathca.dir
-C:/Users/ask/Desktop/autoCA/build/CMakeFiles/edit_cache.dir
-C:/Users/ask/Desktop/autoCA/build/CMakeFiles/rebuild_cache.dir
