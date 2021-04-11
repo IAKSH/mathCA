@@ -24,7 +24,7 @@ int main(int argn, char *args[])
         "|        Comp & Arra         |\n"\
         "| ========================== |\n"\
         "| version: 0.0.2             |\n"\
-        "| source opened on GPL v3.   |\n"\
+        "| source opened on MIT.      |\n"\
         "+----------------------------+\n"
     };
 
